@@ -1,0 +1,19 @@
+# Compilados do Maven
+target/
+
+# Arquivos de IDE
+.idea/
+.vscode/
+*.iml
+*.classpath
+*.project
+.settings/
+
+# Arquivos do Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Logs gerados pela aplicação
+*.log
+!src/test/resources/*.log
+!src/main/resources/*.log
