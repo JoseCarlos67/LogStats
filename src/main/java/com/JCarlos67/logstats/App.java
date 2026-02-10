@@ -9,7 +9,7 @@ public class App
 {
     public static void main(String[] args) {
         LogParser logParser = new LogParser();
-        List<LogEntry> logEntryList = logParser.readLogFile("/home/carlos/Dev/Java/Projetos/log-stats/src/main/resources/sample.log");
+        List<LogEntry> logEntryList = logParser.readLogFile("src/main/resources/sample.log");
         for (LogEntry log : logEntryList)
             System.out.println(log);
     }
