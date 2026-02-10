@@ -1,13 +1,16 @@
 package com.JCarlos67.logstats;
 
-/**
- * Hello world!
- *
- */
-public class App 
+import com.JCarlos67.logstats.model.LogEntry;
+import com.JCarlos67.logstats.service.LogParser;
+
+import java.util.List;
+
+public class App
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+    public static void main(String[] args) {
+        LogParser logParser = new LogParser();
+        List<LogEntry> logEntryList = logParser.readLogFile("src/main/resources/sample.log");
+        for (LogEntry log : logEntryList)
+            System.out.println(log);
     }
 }

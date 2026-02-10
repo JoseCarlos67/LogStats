@@ -1,0 +1,6 @@
+[2024-02-05T14:10:00] INFO Iniciando serviço de autenticação
+[2024-02-05T14:10:05] WARN Tempo de resposta alto no DB: 200ms
+[2024-02-05T14:12:00] ERROR Falha ao conectar no microserviço de pagamento
+[2024-02-05T14:12:01] ERROR Falha ao conectar no microserviço de pagamento
+[2024-02-05T14:15:00] INFO Usuário 'admin' logado com sucesso
+[2024-02-05T15:00:00] INFO Cache limpo
