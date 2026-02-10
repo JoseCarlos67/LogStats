@@ -2,4 +2,9 @@ package com.JCarlos67.logstats.model;
 
 import java.time.LocalDateTime;
 
-public record LogEntry (LocalDateTime timestamp, String level, String message) {}
+public record LogEntry (LocalDateTime timestamp, String level, String message) {
+  @Override
+  public String toString() {
+    return timestamp + " " + level + " " + message;
+  }
+}
